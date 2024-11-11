@@ -10,8 +10,8 @@
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Mental Health and Pets</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -21,28 +21,28 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#top" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Mental Health</a>
+                        <a class="nav-link" href="#about" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">About Mental Health</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pets</a>
+                        <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Pets</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Get Help</a>
+                        <a class="nav-link" href="#" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Get Help</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="hero-image" style="background-image: url('assets/images/hero.webp'); height: 400px; background-size: cover; background-position: center;">
+    <div class="hero-image" style="background-image: url('assets/images/hero.webp'); height: 400px; background-size: cover; background-position: center; margin-top: 56px;">
     </div>
 
-    <main class="container mt-5">
+    <main class="container mt-5 flex-grow-1">
         <div class="row">
             <section id="about" class="col-12">
                 <h2>About Mental Health and Pets</h2>
@@ -63,54 +63,54 @@
             <section id="how-pets-help" class="col-12 mt-5">
                 <h2>How Pets Can Help</h2>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 my-2">
                         <div class="card">
-                            <img src="assets/images/card1.jpg" class="card-img-top" alt="...">
+                            <img src="assets/images/image.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Companionship</h5>
                                 <p class="card-text">Pets provide constant companionship and unconditional love.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 my-2">
                         <div class="card">
-                            <img src="assets/images/card2.jpg" class="card-img-top" alt="...">
+                            <img src="assets/images/image.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Stress Relief</h5>
                                 <p class="card-text">Interacting with pets can reduce stress and promote relaxation.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 my-2">
                         <div class="card">
-                            <img src="assets/images/card3.jpg" class="card-img-top" alt="...">
+                            <img src="assets/images/image.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Physical Activity</h5>
                                 <p class="card-text">Pets encourage us to stay active and engage in regular exercise.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 my-2">
                         <div class="card">
-                            <img src="assets/images/card4.jpg" class="card-img-top" alt="...">
+                            <img src="assets/images/image.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Emotional Support</h5>
                                 <p class="card-text">Pets offer emotional support and can help alleviate feelings of loneliness.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 my-2">
                         <div class="card">
-                            <img src="assets/images/card5.jpg" class="card-img-top" alt="...">
+                            <img src="assets/images/image.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Routine and Structure</h5>
                                 <p class="card-text">Caring for pets provides a sense of routine and purpose.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 my-2">
                         <div class="card">
-                            <img src="assets/images/card6.jpg" class="card-img-top" alt="...">
+                            <img src="assets/images/image.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Social Interaction</h5>
                                 <p class="card-text">Pets can help facilitate social interactions and connections with others.</p>
@@ -120,13 +120,12 @@
                 </div>
             </section>
         </div>
+        <div class="text-center my-5">
+            <a href="#" class="btn btn-primary btn-lg">Get Help</a>
+        </div>
     </main>
 
-    <div class="text-center my-5">
-        <a href="#" class="btn btn-primary btn-lg">Get Help</a>
-    </div>
-
-    <footer class="py-3 bg-light">
+    <footer class="py-3 bg-light mt-auto">
         <div class="container">
             <div class="row">
                 <div class="col text-start">
