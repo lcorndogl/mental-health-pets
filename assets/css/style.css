@@ -1,4 +1,7 @@
-
+/* Global styles */
+section {
+    padding-top: 56px;
+}
 
 /* Hero section */
 #hero {
