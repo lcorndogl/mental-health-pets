@@ -1,12 +1,14 @@
+
+
 /* Hero section */
 #hero {
     height: 600px;
     width: 100%;
     background: url("../images/hero.webp") no-repeat center center/cover;
     position: relative;
-    padding-top: 56px;
     max-width: 1296px;
     margin: auto;
+    margin-top: 56px;
     border-radius: 25px;
 }
 
