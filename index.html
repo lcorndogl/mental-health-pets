@@ -33,7 +33,7 @@
                         <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Get Help</a>
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#getHelpModal">Get Help</a>
                     </li>
                 </ul>
             </div>
@@ -144,9 +144,81 @@
             </section>
         </div>
         <div class="text-center my-5">
-            <a href="#" class="btn btn-primary btn-lg">Get Help</a>
+            <a href="#" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#getHelpModal">Get
+                Help</a>
         </div>
     </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="getHelpModal" tabindex="-1" aria-labelledby="getHelpModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="getHelpModalLabel">Get Help</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Modal content goes here -->
+                    <p>If you need help, here are some great places to start:
+                    <h3>If Life is in danger</h3>
+                    <p>Dial 999</p>
+                    <h3>For urgent help with your mental health</h3>
+                    <p>Dial 111</p>
+                    <h3>Mind Support Line</h3>
+                    <p>
+                        Call Mind's support line on 0300 102 1234. This is a safe space for you to talk about your
+                        mental health. Their advisors are trained to listen to you and help you find specialist support
+                        if you need it - Open 9am to 6pm, Monday to Friday (except bank holidays).
+                    </p>
+                    <h3>Samaritans</h3>
+                    <p>
+                        Samaritans is there for anyone who wants to talk.
+                        <br>
+                        You can contact Samaritans 24 hours a day, 365 days a year:
+                        <br>
+                        Call 116 123 (free from any phone)
+                        <br>
+                        Call the Samaritans Welsh Language Line on 0808 164 0123 (7pm–11pm every day)
+                        <br>
+                        Email <a href="mailto:jo@samaritans.org">jo@samaritans.org</a>
+                        <br>
+                        <a href="https://www.samaritans.org/branches" target="_blank" noopener no-referrer>Visit some branches
+                            in person (Opens in new tab)</a>
+                    </p>
+                    <h3>Shout Crisis Text Line</h3>
+                    <p>
+                        Text "SHOUT" to 85258 to contact the Shout Crisis Text Line, or text "YM" if you're under 19.
+                    </p>
+                    <h3>Childline</h3>
+                    <p>If you are under 19 you can also talk to Childline on 0800 1111 - This number will not appear on
+                        any phone bills!</p>
+                    <h3>Campaign Against Living Miserably (CALM)</h3>
+                    <p>
+                        You can call the CALM on 0800 58 58 58 (5pm-midnight every day) if you are affected by suicide
+                        or suicidal thoughts.
+                        <br>
+                        If you prefer not to speak on the phone, you could try the <a
+                            href="https://www.thecalmzone.net/help/webchat/" target="_blank" noopener no-referrer> CALM webchat service.  (Opens in new tab)</a>
+                    </p>
+                    <h3>Helplines Partnership</h3>
+                    <p>
+                        For more options, visit the
+                        <a href="https://helplines.org/helplines/" target="_blank" noopener no-referrer>Helplines Partnership  (Opens in new tab)</a>
+                        website for a directory of UK helplines. If
+                        you're outside the UK, the 
+                        <a href="https://www.befrienders.org/" target="_blank" noopener no-referrer>Befrienders Worldwide  (Opens in new tab)</a>
+                        website has a tool to search by country for
+                        emotional support helplines around the world.
+                    </p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="py-3 bg-light mt-auto">
         <div class="container">
