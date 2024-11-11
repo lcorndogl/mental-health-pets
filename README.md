@@ -44,7 +44,7 @@ The typography used has been selected from Google Fonts, searching using the 'ca
 ## Get Help
 
 # Future Features
-Currently None Planned
+Add custom domain to project to make it available at "https://mhp.michaelcornall.co.uk" with an SSL certificate
 
 # Technologies Used
 ## HTML
@@ -82,6 +82,8 @@ None so far! My code is perfect (Until I begin)
 ## [Coolors for the colour scheme](https://coolors.co/ebebeb-c2b8b2-197bbd-090c9b-2a2b2a)
 ## [Mental Health Foundation (Various information on pets)](https://www.mentalhealth.org.uk/explore-mental-health/a-z-topics/pets-and-mental-health#:~:text=The%20companionship%20of%20a%20pet,you%20feel%20isolated%20or%20misunderstood)
 ## [NHS - Information on some mental health problems](https://www.nhs.uk/nhs-services/mental-health-services/)
+## [Stack Overflow - Undo Git Commit](https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git)
+## [CloudConvert - Convert images to webp format](https://cloudconvert.com/jpg-to-webp)
 
 ## Fonts
 ### [Agdasima](https://fonts.google.com/specimen/Agdasima?categoryFilters=Feeling:%2FExpressive%2FCalm)
