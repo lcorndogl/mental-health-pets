@@ -19,7 +19,7 @@
     right: 25px;
     min-height: 125px;
     padding: 25px 10px;
-}
+    border-radius: 25px;}
 
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
