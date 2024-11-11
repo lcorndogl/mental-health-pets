@@ -25,9 +25,7 @@ The colour scheme has been chosen with the familiar colours of the NHS in the UK
 
 [Coolors for the colour scheme](https://coolors.co/ebebeb-c2b8b2-197bbd-090c9b-2a2b2a)
 
-![colour scheme](docs/mental-health-pets.png "Mental Health Pets Colour Scheme")
-
-
+![colour scheme](docs/colour-scheme.png "Mental Health Pets Colour Scheme")
 
 ## Imagery
 The imagery used in this project has been taken by myself and my experiences owning my own pet.
@@ -40,9 +38,6 @@ The typography used has been selected from Google Fonts, searching using the 'ca
 ## About
 ## Gallery
 ## Get Help
-
-# Tablet/Mobile view
-> Is this not the same as the Responsivity Image?
 
 # Future Features
 Currently None Planned
