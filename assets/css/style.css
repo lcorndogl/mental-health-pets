@@ -29,5 +29,24 @@
 /* Responsivity Rules  */
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-/* Rules to be added later if necessary for tablet devices */
+    /* Set the cards min-height so they are all the same size on tablet size devices */
+    .card {
+        min-height: 528px;
+    }
+}
+
+/* Media query: tablets and larger (1024px and up) */
+@media screen and (min-width: 1024px) {
+    /* Set the cards min-height so they are all the same size on laptop size devices */
+    .card {
+        min-height: 520px;
+    }
+}
+
+/* Media query: 1440p devices (1440px and up) */
+@media screen and (min-width: 1440px) {
+    /* Set the cards min-height so they are all the same size on laptop size devices */
+    .card {
+        min-height: 545px;
+    }
 }
