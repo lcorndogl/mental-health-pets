@@ -4,4 +4,30 @@
     width: 100%;
     background: url("../images/hero.webp") no-repeat center center/cover;
     position: relative;
+    padding-top: 56px;
+    max-width: 1296px;
+    margin: auto;
+}
+
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 25px;
+    width: 250px;
+    right: 25px;
+    min-height: 125px;
+    padding: 25px 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
+}
+
+
+/* Responsivity Rules  */
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+/* Rules to be added later if necessary for tablet devices */
 }
