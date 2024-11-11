@@ -11,8 +11,8 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container">
             <a class="navbar-brand" href="#">Mental Health and Pets</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,24 +21,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#top" data-bs-toggle="collapse"
-                            data-bs-target=".navbar-collapse.show">Home</a>
+                        <a class="nav-link" href="#top">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about" data-bs-toggle="collapse"
-                            data-bs-target=".navbar-collapse.show">About Mental Health</a>
+                        <a class="nav-link" href="#about">About Mental Health</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#how-pets-help" data-bs-toggle="collapse"
-                            data-bs-target=".navbar-collapse.show">Pets</a>
+                        <a class="nav-link" href="#how-pets-help">Pets</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="gallery.html" data-bs-toggle="collapse"
-                            data-bs-target=".navbar-collapse.show">Gallery</a>
+                        <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-bs-toggle="collapse"
-                            data-bs-target=".navbar-collapse.show">Get Help</a>
+                        <a class="nav-link" href="#">Get Help</a>
                     </li>
                 </ul>
             </div>
@@ -165,6 +160,27 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <!-- Javascript from CodeInstitute to make the navbar collapse when a link is clicked -->
+    <script>
+        document
+            .querySelectorAll(".navbar-collapse .nav-link")
+            .forEach((link) => {
+                link.addEventListener("click", function (e) {
+                    let section = document.querySelector(e.target.getAttribute("href"));
+                    if (section) {
+                        e.preventDefault(); // Prevent default anchor click behavior
+                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        window.scroll({
+                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            behavior: "smooth",
+                        });
+                        document
+                            .querySelector(".navbar-collapse")
+                            .classList.remove("show"); // Collapse navbar
+                    }
+                });
+            });
+    </script>
 </body>
 
 </html>
