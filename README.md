@@ -155,6 +155,8 @@ Javascript code used to collapse navbar when a link is clicked
 
 ### [Mental Health Foundation (Various information on pets)](https://www.mentalhealth.org.uk/explore-mental-health/a-z-topics/pets-and-mental-health#:~:text=The%20companionship%20of%20a%20pet,you%20feel%20isolated%20or%20misunderstood)
 
+### [Mind.org.uk - Support line help](https://www.mind.org.uk/information-support/guides-to-support-and-services/seeking-help-for-a-mental-health-problem/mental-health-helplines/)
+
 ### [NHS - Information on some mental health problems](https://www.nhs.uk/nhs-services/mental-health-services/)
 
 ### [Stack Overflow - Undo Git Commit](https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git)
