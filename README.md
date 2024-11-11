@@ -108,7 +108,6 @@ Bash Terminal used for adding and commiting files to the git repository, providi
 [Link to Deployed Site](https://github.com/lcorndogl/mental-health-pets/settings/pages)
 ![Deployed Project Check](docs/github-deployed.png "GitHub Pages Deployment Check")
 
-
 ## Testing
 
 ### Insert tests here
@@ -117,11 +116,40 @@ Bash Terminal used for adding and commiting files to the git repository, providi
 
 ## Bugs
 
-None so far! My code is perfect (Until I begin)
+### CoPilot not importing bootstrap correctly
+
+images in docs/bug1 folder
 
 ## Credits
 
 ### [Bootstrap](https://www.getbootstrap.com) - [Version 5.3.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+
+### CodeInstitute
+
+Javascript code used to collapse navbar when a link is clicked
+
+```javascript
+<script>
+    document
+        .querySelectorAll(".navbar-collapse .nav-link")
+        .forEach((link) => {
+            link.addEventListener("click", function (e) {
+                let section = document.querySelector(e.target.getAttribute("href"));
+                if (section) {
+                    e.preventDefault(); // Prevent default anchor click behavior
+                    let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                    window.scroll({
+                        top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                        behavior: "smooth",
+                    });
+                    document
+                        .querySelector(".navbar-collapse")
+                        .classList.remove("show"); // Collapse navbar
+                }
+            });
+        });
+</script>
+```
 
 ### [Coolors for the colour scheme](https://coolors.co/ebebeb-c2b8b2-197bbd-090c9b-2a2b2a)
 
