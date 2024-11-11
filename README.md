@@ -1,6 +1,6 @@
  Mental Health and Pets
 
-## [Link to Live Site](https://lcorndogl.gitpod.io/mental-health-pets)
+## [Link to Live Site](https://lcorndogl.github.io/mental-health-pets/)
 
 ## Contents
 
@@ -102,9 +102,12 @@ Bash Terminal used for adding and commiting files to the git repository, providi
 
 1) Add the required files to the git repository with the command `git add .`
 2) Commit the changes to the repository with the command commit command `git commit -m "Final project commit"`
-3) Open up the repository and go to the settings > pages menu (INSERT URL HERE)
-4) Select the root directory and main branch to deploy the project (INSERT IMAGE HERE)
-5) Verify that the project has been deployed by going to the main repository page and checking the deployment status on the right hand side (INSERT IMAGE AND URL HERE)
+3) Open up the repository and go to the settings > pages menu ([Mental Health Pets GitHub pages link](https://github.com/lcorndogl/mental-health-pets/settings/pages))
+4) Select the root directory and main branch to deploy the project ![Deploy Settings for Project](docs/github-deploy-settings.png "GitHub Pages Deployment Settings")
+5) Verify that the project has been deployed by going to the main repository page (Code) and checking the deployment status on the right hand side
+[Link to Deployed Site](https://github.com/lcorndogl/mental-health-pets/settings/pages)
+![Deployed Project Check](docs/github-deployed.png "GitHub Pages Deployment Check")
+
 
 ## Testing
 
