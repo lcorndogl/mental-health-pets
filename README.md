@@ -157,6 +157,8 @@ Javascript code used to collapse navbar when a link is clicked
 
 ### [Mind.org.uk - Support line help](https://www.mind.org.uk/information-support/guides-to-support-and-services/seeking-help-for-a-mental-health-problem/mental-health-helplines/)
 
+### [NHS urgent help for mental health](https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/)
+
 ### [NHS - Information on some mental health problems](https://www.nhs.uk/nhs-services/mental-health-services/)
 
 ### [Stack Overflow - Undo Git Commit](https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git)
