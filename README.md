@@ -16,6 +16,10 @@ Mental Health has become an issue that has some stigma attached to it, however w
 ## Scope
 ## Structure
 ## Wireframes
+### Homepage
+![Homepage Wireframe](docs/wf-home.png "Mental Health Pets Homepage Wireframe")
+### Gallery
+![Gallery Wireframe](docs/wf-gallery.png "Mental Health Pets Gallery Wireframe")
 ### Mobile / Tablet / Desktop breakpoints
 ## Surface
 
