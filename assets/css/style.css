@@ -17,7 +17,12 @@ section {
     padding-top: 56px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'sour gummy', sans-serif;
 }
 
@@ -31,7 +36,8 @@ nav {
     background-color: var(--light-blue);
 }
 
-nav .nav-link, nav .navbar-brand {
+nav .nav-link,
+nav .navbar-brand {
     color: var(--white);
 }
 
@@ -58,13 +64,16 @@ nav .nav-link, nav .navbar-brand {
     right: 25px;
     min-height: 125px;
     padding: 25px 10px;
-    border-radius: 25px;}
+    border-radius: 25px;
+}
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: #ffffff;
 }
 
-#about .card , #effects .card {
+#about .card,
+#effects .card {
     min-height: 0;
 }
 
@@ -72,34 +81,43 @@ nav .nav-link, nav .navbar-brand {
 /* Responsivity Rules  */
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Set the cards min-height so they are all the same size on tablet size devices */
     .card {
         min-height: 515px;
     }
-    #about .card , #effects .card {
+
+    #about .card,
+    #effects .card {
         min-height: 389px;
     }
 }
 
 /* Media query: tablets and larger (1024px and up) */
 @media screen and (min-width: 1024px) {
+
     /* Set the cards min-height so they are all the same size on laptop size devices */
     .card {
         min-height: 503px;
     }
-    #about .card , #effects .card {
+
+    #about .card,
+    #effects .card {
         min-height: 295px;
     }
-    
+
 }
 
 /* Media query: 1440p devices (1440px and up) */
 @media screen and (min-width: 1440px) {
+
     /* Set the cards min-height so they are all the same size on laptop size devices */
     .card {
         min-height: 605px;
     }
-    #about .card , #effects .card {
+
+    #about .card,
+    #effects .card {
         min-height: 225px;
     }
 }
