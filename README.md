@@ -126,7 +126,7 @@ images in docs/bug1 folder
 
 ### CodeInstitute
 
-Javascript code used to collapse navbar when a link is clicked
+#### Javascript code used to collapse navbar when a link is clicked
 
 ```javascript
 <script>
@@ -163,7 +163,13 @@ Javascript code used to collapse navbar when a link is clicked
 
 ### [Stack Overflow - Undo Git Commit](https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git)
 
-### [CloudConvert - Convert images to webp format](https://cloudconvert.com/jpg-to-webp)
+### Image Conversion
+
+#### [Picflow - Image conversion to webp](https://picflow.com/convert/jpg-to-webp)
+
+#### [Image Resizer to resize images](https://imageresizer.com/bulk-resize)
+
+#### [CloudConvert - Convert images to webp format](https://cloudconvert.com/jpg-to-webp)
 
 ### Fonts
 
