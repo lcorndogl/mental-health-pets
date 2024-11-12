@@ -64,6 +64,10 @@ nav .nav-link, nav .navbar-brand {
     color: #ffffff;
 }
 
+#about .card , #effects .card {
+    min-height: 0;
+}
+
 
 /* Responsivity Rules  */
 /* Media query: tablets and larger (768px and up) */
@@ -71,6 +75,9 @@ nav .nav-link, nav .navbar-brand {
     /* Set the cards min-height so they are all the same size on tablet size devices */
     .card {
         min-height: 515px;
+    }
+    #about .card , #effects .card {
+        min-height: 389px;
     }
 }
 
@@ -80,6 +87,10 @@ nav .nav-link, nav .navbar-brand {
     .card {
         min-height: 503px;
     }
+    #about .card , #effects .card {
+        min-height: 295px;
+    }
+    
 }
 
 /* Media query: 1440p devices (1440px and up) */
@@ -87,5 +98,8 @@ nav .nav-link, nav .navbar-brand {
     /* Set the cards min-height so they are all the same size on laptop size devices */
     .card {
         min-height: 605px;
+    }
+    #about .card , #effects .card {
+        min-height: 225px;
     }
 }
