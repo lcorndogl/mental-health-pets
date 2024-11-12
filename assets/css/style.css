@@ -5,8 +5,8 @@
 /* CSS Variables */
 :root {
     /* Set Colour Pallette  */
-    --blue: #197BBD;
-    --light-blue: #090C9B;
+    --light-blue: #197BBD;
+    --blue: #090C9B;
     --white: #EBEBEB;
     --silver: #C2B8B2;
     --grey: #2A2B2A;
@@ -24,6 +24,16 @@ h1, h2, h3 {
 body {
     font-family: 'Quicksand', sans-serif;
 }
+
+/* Nav styling */
+nav {
+    background-color: var(--light-blue);
+}
+
+nav .nav-link, nav .navbar-brand {
+    color: var(--white);
+}
+
 
 /* Hero section */
 #hero {
