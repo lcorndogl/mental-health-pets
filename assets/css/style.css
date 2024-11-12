@@ -51,7 +51,6 @@ body {
     border-radius: 25px;
 }
 
-
 /* Nav styling */
 nav{
     background-color: var(--light-blue);
@@ -100,6 +99,27 @@ nav .navbar-brand {
 #about .card,
 #effects .card {
     min-height: 0;
+}
+
+/* Gallery Flex */
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+/* Gallery page */
+#photos img {
+    width: 100%;
+    max-width: 256px;
+    min-width: calc(100% / 3.5);
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
 }
 
 /* Modal */
