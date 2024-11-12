@@ -31,6 +31,17 @@ body {
     background-color: var(--silver);
 }
 
+
+.card {
+    background-color: var(--white);
+    border-radius: 25px;
+}
+
+.card img {
+    border-radius: 25px 25px 10px 10px;
+}
+
+
 /* Nav styling */
 nav {
     background-color: var(--light-blue);
@@ -85,7 +96,6 @@ footer {
     background-color: var(--grey);
     color: var(--white);
 }
-
 
 /* Responsivity Rules  */
 /* Media query: tablets and larger (768px and up) */
