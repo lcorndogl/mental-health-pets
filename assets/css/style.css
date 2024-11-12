@@ -1,3 +1,13 @@
+/* CSS Variables */
+:root {
+    /* Set Colour Pallette  */
+    --blue: #197BBD;
+    --light-blue: #090C9B;
+    --white: #EBEBEB;
+    --silver: #C2B8B2;
+    --grey: #2A2B2A;
+}
+
 /* Global styles */
 section {
     padding-top: 56px;
