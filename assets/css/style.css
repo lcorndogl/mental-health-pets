@@ -77,6 +77,11 @@ nav .navbar-brand {
     min-height: 0;
 }
 
+footer {
+    background-color: var(--grey);
+    color: var(--white);
+}
+
 
 /* Responsivity Rules  */
 /* Media query: tablets and larger (768px and up) */
