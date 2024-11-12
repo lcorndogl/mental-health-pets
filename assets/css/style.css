@@ -41,6 +41,10 @@ nav .navbar-brand {
     color: var(--white);
 }
 
+.btn-help {
+    background-color: var(--blue);
+}
+
 /* Hero section */
 #hero {
     height: 600px;
