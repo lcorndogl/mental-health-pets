@@ -41,7 +41,6 @@ nav .navbar-brand {
     color: var(--white);
 }
 
-
 /* Hero section */
 #hero {
     height: 600px;
@@ -72,6 +71,7 @@ nav .navbar-brand {
     color: #ffffff;
 }
 
+/* About section */
 #about .card,
 #effects .card {
     min-height: 0;
