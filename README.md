@@ -167,8 +167,6 @@ Javascript code used to collapse navbar when a link is clicked
 
 ### Fonts
 
-#### [Agdasima](https://fonts.google.com/specimen/Agdasima?categoryFilters=Feeling:%2FExpressive%2FCalm)
-
 #### [Quicksand](https://fonts.google.com/specimen/Quicksand?categoryFilters=Feeling:%2FExpressive%2FCalm)
 
 #### [Sour Gummy](https://fonts.google.com/specimen/Sour+Gummy)
