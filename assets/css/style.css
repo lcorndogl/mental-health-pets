@@ -23,6 +23,7 @@ h1, h2, h3 {
 
 body {
     font-family: 'Quicksand', sans-serif;
+    background-color: var(--silver);
 }
 
 /* Nav styling */
