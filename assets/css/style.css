@@ -43,7 +43,7 @@ body {
 
 
 /* Nav styling */
-nav {
+nav{
     background-color: var(--light-blue);
 }
 
@@ -90,6 +90,18 @@ nav .navbar-brand {
 #about .card,
 #effects .card {
     min-height: 0;
+}
+
+/* Modal */
+.modal-content {
+    background-color: var(--silver);
+    border-radius: 25px;
+}
+
+.modal-header {
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 20px;
 }
 
 footer {
