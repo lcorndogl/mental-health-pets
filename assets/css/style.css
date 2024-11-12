@@ -47,7 +47,7 @@ section {
 @media screen and (min-width: 768px) {
     /* Set the cards min-height so they are all the same size on tablet size devices */
     .card {
-        min-height: 528px;
+        min-height: 515px;
     }
 }
 
@@ -55,7 +55,7 @@ section {
 @media screen and (min-width: 1024px) {
     /* Set the cards min-height so they are all the same size on laptop size devices */
     .card {
-        min-height: 520px;
+        min-height: 503px;
     }
 }
 
@@ -63,6 +63,6 @@ section {
 @media screen and (min-width: 1440px) {
     /* Set the cards min-height so they are all the same size on laptop size devices */
     .card {
-        min-height: 545px;
+        min-height: 605px;
     }
 }
