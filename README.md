@@ -10,68 +10,6 @@
 
 Mental Health has become an issue that has some stigma attached to it, however with people now talking about it and the impacts that it can have on daily living, this project aims to highlight some of the things that pets can help with when dealing with mental health issues.
 
-## Testing
-
-### Responsivity Images
-
-#### [Index](https://ui.dev/amiresponsive?url=https://lcorndogl.github.io/mental-health-pets)
-
-![Homepage responsiveness](docs/air-index.png "Responsiveness Check from https://ui.dev/amiresponsive?url=https://lcorndogl.github.io/mental-health-pets")
-
-#### [Gallery](https://ui.dev/amiresponsive?url=https://lcorndogl.github.io/mental-health-pets/gallery.html)
-
-##### On Load
-
-![Gallery responsiveness](docs/air-gallery1.png "Responsiveness Check from https://ui.dev/amiresponsive?url=https://lcorndogl.github.io/mental-health-pets/gallery.html")
-
-##### On Scroll
-
-![Gallery responsiveness](docs/air-gallery2.png "Responsiveness Check from https://ui.dev/amiresponsive?url=https://lcorndogl.github.io/mental-health-pets/gallery.html")
-
-### Validation
-
-#### HTML
-
-##### [Index HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2F)
-
-![Index Validation](docs/val-html-index.png "Responsiveness Check from https://validator.w3.org/nu/?doc=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2F")
-
-##### [Gallery HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2Fgallery.html)
-
-![Gallery HTML Validation](docs/val-html-gallery.png "Responsiveness Check from https://validator.w3.org/nu/?doc=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2Fgallery.html")
-
-#### CSS
-
-##### [Index CSS Validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-
-![Index Validation](docs/val-css-index.png "Responsiveness Check from https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en")
-
-##### [Gallery CSS Validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-
-![Gallery HTML Validation](docs/val-css-gallery.png "Responsiveness Check from https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en")
-
-### Bugs
-
-#### Bootstrap Import Troubleshooting
-
-At the beginning of the project I used AI to import the bootstrap library - originally importing 5.1.3, after it did this I asked it to import 5.3.3 and it changed the URL where the version number is denoted to 5.3.3. This however caused the issue of the CDN being different for 5.3.3 so it was linking to a CSS file that didn't actually exist, which I didn't find out until I tried to add a navbar which made use of the bootstrap classes as I inserted the bootstrap CSS link first.
-
-1. Seeing the navbar is all messed up initially when trying to insert it into the code
-
-![Boostrap Failed Link](docs/bug1/1bootstrap-link-failed.png)
-
-2. Going to the specified CSS file location in the code and realising that the URL is incorrect
-
-![Boostrap Failed Link](docs/bug1/2file-not-found.png)
-
-3. Manually getting the bootstrap URLs and replacing the broken links with these
-
-![Boostrap Failed Link](docs/bug1/3get-urls.png)
-
-4. Accepting navbar code after bootstrap link is resolved
-
-![Boostrap Failed Link](docs/bug1/4update-accept-code.png)
-
 ## User Experience
 
 ### Stories
@@ -166,11 +104,11 @@ This section is a modal that is on every page - accessed by either clicking the 
 
 ## Technologies Used
 
-### HTML
+### HTML Language
 
 Basic HTML is used to create the information to be displayed in the pages, links and other general website functions
 
-### CSS
+### CSS Styling
 
 CSS is used to allow the formatting of the website, making it responsive and intuitive for the user to use
 
@@ -188,7 +126,21 @@ Visual Studio Code has been used to create the project as a pseudo-IDE, allowing
 
 ### CoPilot
 
-CoPilot has been used as the AI tool in this project, utilising it for both helping with code creation such as pulling bootstrap templates into the code rather than using a search engine and the documentation where possible. It has also been used to help troubleshoot any errors within the code, and helping with getting the layout of the project correct in places where I may have struggled without it
+CoPilot has been used as the AI tool in this project, utilising it for both helping with code creation such as pulling bootstrap templates into the code rather than using a search engine and the documentation where possible. It has also been used to help troubleshoot any errors within the code, and helping with getting the layout of the project correct in places where I may have struggled without it.
+
+I used copilot at various points to help create code for the project - primarly to import bootstrap styles, saving the need to go and search for these myself. I also used AI for various alignments of text throughout the document, as an example in the footer to have 3 separate footer sections across the page.
+
+#### AI Bootstrap
+
+![AI Bootstrap](docs/ai-bootstrap.png)
+
+#### AI Navbar
+
+![AI Navbar](docs/ai-navbar.png)
+
+#### AI Main Skeleton
+
+![AI Main Skeleton](/docs/ai-main-skeleton.png)
 
 ### bash terminal
 
@@ -206,15 +158,87 @@ Bash Terminal used for adding and commiting files to the git repository, providi
 
 ## Testing
 
-### Insert tests here
+### Responsivity Images
 
-### Lighthouse Audits
+#### [Index](https://ui.dev/amiresponsive?url=https://lcorndogl.github.io/mental-health-pets)
+
+![Homepage responsiveness](docs/air-index.png "Responsiveness Check from https://ui.dev/amiresponsive?url=https://lcorndogl.github.io/mental-health-pets")
+
+#### [Gallery](https://ui.dev/amiresponsive?url=https://lcorndogl.github.io/mental-health-pets/gallery.html)
+
+##### On Load
+
+![Gallery responsiveness](docs/air-gallery1.png "Responsiveness Check from https://ui.dev/amiresponsive?url=https://lcorndogl.github.io/mental-health-pets/gallery.html")
+
+##### On Scroll
+
+![Gallery responsiveness](docs/air-gallery2.png "Responsiveness Check from https://ui.dev/amiresponsive?url=https://lcorndogl.github.io/mental-health-pets/gallery.html")
+
+### Validation
+
+#### HTML
+
+##### [Index HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2F)
+
+![Index Validation](docs/val-html-index.png "Responsiveness Check from https://validator.w3.org/nu/?doc=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2F")
+
+##### [Gallery HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2Fgallery.html)
+
+![Gallery HTML Validation](docs/val-html-gallery.png "Responsiveness Check from https://validator.w3.org/nu/?doc=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2Fgallery.html")
+
+#### CSS
+
+##### [Index CSS Validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+![Index Validation](docs/val-css-index.png "Responsiveness Check from https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en")
+
+##### [Gallery CSS Validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+![Gallery HTML Validation](docs/val-css-gallery.png "Responsiveness Check from https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en")
+
+### Lighthouse Scores
+
+#### Mobile
+
+##### Index Mobile
+
+![Lighthouse score for index page on mobile](docs/lh-mob-index.png "Lighthouse score from Opera developer tools window")
+
+##### Gallery Mobile
+
+![Lighthouse score for gallery page on mobile](docs/lh-mob-gallery.png "Lighthouse score from Opera developer tools window")
+
+#### Desktop
+
+##### Index Desktop
+
+![Lighthouse score for index page on desktop](docs/lh-desk-index.png "Lighthouse score from Opera developer tools window")
+
+##### Gallery Desktop
+
+![Lighthouse score for gallery page on desktop](docs/lh-desk-index.png "Lighthouse score from Opera developer tools window")
 
 ## Bugs
 
-### CoPilot not importing bootstrap correctly
+### CoPilot Bootstrap Import Troubleshooting
 
-images in docs/bug1 folder
+At the beginning of the project I used AI to import the bootstrap library - originally importing 5.1.3, after it did this I asked it to import 5.3.3 and it changed the URL where the version number is denoted to 5.3.3. This however caused the issue of the CDN being different for 5.3.3 so it was linking to a CSS file that didn't actually exist, which I didn't find out until I tried to add a navbar which made use of the bootstrap classes as I inserted the bootstrap CSS link first.
+
+1. Seeing the navbar is all messed up initially when trying to insert it into the code
+
+![Boostrap Failed Link](docs/bug1/1bootstrap-link-failed.png)
+
+1. Going to the specified CSS file location in the code and realising that the URL is incorrect
+
+![Boostrap Failed Link](docs/bug1/2file-not-found.png)
+
+1. Manually getting the bootstrap URLs and replacing the broken links with these
+
+![Boostrap Failed Link](docs/bug1/3get-urls.png)
+
+1. Accepting navbar code after bootstrap link is resolved
+
+![Boostrap Failed Link](docs/bug1/4update-accept-code.png)
 
 ## Credits
 
