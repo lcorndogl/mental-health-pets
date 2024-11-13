@@ -380,15 +380,15 @@ At the beginning of the project I used AI to import the bootstrap library - orig
 
 ![Boostrap Failed Link](docs/bug1/1bootstrap-link-failed.png)
 
-1. Going to the specified CSS file location in the code and realising that the URL is incorrect
+2. Going to the specified CSS file location in the code and realising that the URL is incorrect
 
 ![Boostrap Failed Link](docs/bug1/2file-not-found.png)
 
-1. Manually getting the bootstrap URLs and replacing the broken links with these
+3. Manually getting the bootstrap URLs and replacing the broken links with these
 
 ![Boostrap Failed Link](docs/bug1/3get-urls.png)
 
-1. Accepting navbar code after bootstrap link is resolved
+4. Accepting navbar code after bootstrap link is resolved
 
 ![Boostrap Failed Link](docs/bug1/4update-accept-code.png)
 
