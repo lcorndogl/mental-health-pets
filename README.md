@@ -1,40 +1,122 @@
- Mental Health and Pets
+# Mental Health and Pets
 
 ## [Link to Live Site](https://lcorndogl.github.io/mental-health-pets/)
 
 ## Contents
 
+>Add contents after finishing
+
 ## Introduction
 
 Mental Health has become an issue that has some stigma attached to it, however with people now talking about it and the impacts that it can have on daily living, this project aims to highlight some of the things that pets can help with when dealing with mental health issues.
 
-## Responsivity Image
->
-> Insert image of responsivity on multiple devices here
+## Testing
+
+### Responsivity Images
+
+#### [Index](https://ui.dev/amiresponsive?url=https://lcorndogl.github.io/mental-health-pets)
+
+![Homepage responsiveness](docs/air-index.png "Responsiveness Check from https://ui.dev/amiresponsive?url=https://lcorndogl.github.io/mental-health-pets")
+
+#### [Gallery](https://ui.dev/amiresponsive?url=https://lcorndogl.github.io/mental-health-pets/gallery.html)
+
+##### On Load
+
+![Gallery responsiveness](docs/air-gallery1.png "Responsiveness Check from https://ui.dev/amiresponsive?url=https://lcorndogl.github.io/mental-health-pets/gallery.html")
+
+##### On Scroll
+
+![Gallery responsiveness](docs/air-gallery2.png "Responsiveness Check from https://ui.dev/amiresponsive?url=https://lcorndogl.github.io/mental-health-pets/gallery.html")
+
+### Validation
+
+#### HTML
+
+##### [Index HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2F)
+
+![Index Validation](docs/val-html-index.png "Responsiveness Check from https://validator.w3.org/nu/?doc=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2F")
+
+##### [Gallery HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2Fgallery.html)
+
+![Gallery HTML Validation](docs/val-html-gallery.png "Responsiveness Check from https://validator.w3.org/nu/?doc=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2Fgallery.html")
+
+#### CSS
+
+##### [Index CSS Validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+![Index Validation](docs/val-css-index.png "Responsiveness Check from https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en")
+
+##### [Gallery CSS Validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+![Gallery HTML Validation](docs/val-css-gallery.png "Responsiveness Check from https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flcorndogl.github.io%2Fmental-health-pets%2Fgallery.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en")
+
+### Bugs
+
+#### Bootstrap Import Troubleshooting
+
+At the beginning of the project I used AI to import the bootstrap library - originally importing 5.1.3, after it did this I asked it to import 5.3.3 and it changed the URL where the version number is denoted to 5.3.3. This however caused the issue of the CDN being different for 5.3.3 so it was linking to a CSS file that didn't actually exist, which I didn't find out until I tried to add a navbar which made use of the bootstrap classes as I inserted the bootstrap CSS link first.
+
+1. Seeing the navbar is all messed up initially when trying to insert it into the code
+
+![Boostrap Failed Link](docs/bug1/1bootstrap-link-failed.png)
+
+2. Going to the specified CSS file location in the code and realising that the URL is incorrect
+
+![Boostrap Failed Link](docs/bug1/2file-not-found.png)
+
+3. Manually getting the bootstrap URLs and replacing the broken links with these
+
+![Boostrap Failed Link](docs/bug1/3get-urls.png)
+
+4. Accepting navbar code after bootstrap link is resolved
+
+![Boostrap Failed Link](docs/bug1/4update-accept-code.png)
 
 ## User Experience
 
-### stories
+### Stories
+
+#### External User Story
+
+As a user, I want to be able to quickly find accessible, beginner-friendly information on mental health, including how to recognize common issues and manage stress, presented in a supportive and organised layout.
+
+#### Site Owner User Story
+
+I want to create a welcoming webpage that provides basic mental health information using a clean and supportive design. The focus is on using HTML and CSS with Bootstrap to create a calming and well-organised user experience.
 
 ### Strategy
 
+To achieve the stories set out by both the external user and as the site owner, I decided that a primarily single page website would be utilised, this allows for all of the relevant information to be accessible without having to search through the different pages to find it.
+
+To help achieve this I utilised the use of in page links, linking to the various heading that are within the index page.
+
+As an extra addendum, I added a gallery page, with it's sole purpose to hold images and keep the index page free from clutter, which may take attention away from the key information which may be able to save a life!
+
+I included a get help button both in the nav bar and below the content on all pages, which when clicked opens a modal with information on services which may be able to offer help to people who need it.
+
+All of the information on the site has been taken from org.uk websites, so as to provide as accurate information as possible, so as to not mislead anyonw who is visiting the site and avoid causing harm to any individual or group.
+
 ### Scope
 
-### Structure
+The scope of this project aims to get important information available to people who may need it, presented in a consistent and responsive manner regardless of which device is used.
+
+This is achieved with a combination of HTML, CSS, Bootstrap and CoPilot AI.
 
 ### Wireframes
 
-#### Homepage
+#### Homepage Wireframe
 
 ![Homepage Wireframe](docs/wf-home.png "Mental Health Pets Homepage Wireframe")
 
-#### Gallery
+#### Gallery Wireframe
 
 ![Gallery Wireframe](docs/wf-gallery.png "Mental Health Pets Gallery Wireframe")
 
 #### Mobile / Tablet / Desktop breakpoints
 
-### Surface
+I have utilised the same breakpoints that are used in developer features, these are sometimes out slightly vs what you would see in the bootstrap features, but using these in conjunction has had no negative impact on how the site renders across various devices, as the main issue would have been the navbar and this expanding ~30px earlier does not cause any text overlaps.
+
+For avoidance of doubt - the breakpoints I used are 768px, 1024px & 1440px.
 
 ## Design
 
@@ -52,21 +134,35 @@ The imagery used in this project has been taken by myself and my experiences own
 
 ### Typography
 
-The typography used has been selected from Google Fonts, searching using the 'calm' filter, as a little addage to people who may be suffering with mental health and looking for information, as to not be an agressive font which could cause further issues in extreme cases
+The typography used has been selected from Google Fonts, searching using the 'calm' filter, as a little addage to people who may be suffering with mental health and looking for information, as to not be an agressive font which could cause further issues in extreme cases. From this filter I have settled on the "Quicksand" and "Sour Gummy" fonts.
 
 ## Website Features
 
 ### Homepage
 
+A homepage which is loaded when a user enters the site. It provides information in an easily accessible format. It also contains all the subheadings for the rest of the page as well as a modal with information where users can get help that is always available.
+
 ### About
+
+This section provides a brief overview of what mental health is and important aspects to be achieved to help with having good mental health, as well as the effects that it can have on different people.
+
+### How pets can help
+
+This section consists of 6 cards that include the possible benefits a pet can have on mental health.
 
 ### Gallery
 
+This section houses various images of my pet - Marley, showing the joy that a pet can bring by just being caring, unjudgemental and enjoying life as it happens, as well as providing regular routine and exercise.
+
 ### Get Help
+
+This section is a modal that is on every page - accessed by either clicking the get help button in the nav bar, or the one located at the bottom of each page - both open up the same modal menu, making it easy for the user to get information to the services needed to get any help that they may need.
 
 ## Future Features
 
-Add custom domain to project to make it available at "<https://mhp.michaelcornall.co.uk>" with an SSL certificate
+- Add custom domain to project to make it available at "<https://mhp.michaelcornall.co.uk>" with an SSL certificate.
+- Add more responsiveness queries to limit image sizes on smaller displays
+- Add in smaller hero images to overwrite the background: url("") in the responsiveness section of the CSS to assist with load times on smaller devices
 
 ## Technologies Used
 
