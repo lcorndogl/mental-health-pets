@@ -46,6 +46,7 @@
     - [Mobile](#mobile)
     - [Desktop](#desktop)
 - [Bugs](#bugs)
+    -[CoPilot Bootstrap Import Troubleshooting](#copilot-bootstrap-import-troubleshooting)
 - [Credits](#credits)
 
 ## Introduction
