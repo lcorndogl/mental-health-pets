@@ -186,6 +186,7 @@ This section is a modal that is on every page - accessed by either clicking the 
 - Add custom domain to project to make it available at "<https://mhp.michaelcornall.co.uk>" with an SSL certificate.
 - Add more responsiveness queries to limit image sizes on smaller displays
 - Add in smaller hero images to overwrite the background: url("") in the responsiveness section of the CSS to assist with load times on smaller devices
+- Run the css through auto-prefixer to ensure compatibility of untested browsers (eg: Safari)
 
 ###### [*Back to contents*](#contents)
 
