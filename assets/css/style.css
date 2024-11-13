@@ -41,18 +41,18 @@ body {
     border-radius: 25px 25px 10px 10px;
 }
 
-.row .card-gallery{
+.row .card-gallery {
     min-height: 0;
     border-radius: 30px;
 }
 
-.row .card-gallery img{
+.row .card-gallery img {
     min-height: 0;
     border-radius: 25px;
 }
 
 /* Nav styling */
-nav{
+nav {
     background-color: var(--light-blue);
 }
 
